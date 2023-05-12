@@ -1,0 +1,124 @@
+html{
+  background-color:lightgrey;
+  height: 2500px
+}
+
+
+a{color:black;
+  cursor:pointer;
+  line-height: 50px;
+  }
+
+
+#navigationbar{background-color:darkgrey;
+  height:130px;
+  display:flex;
+  justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+ }
+
+#about-me{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+  position:absolute;
+  left:558px;
+  top:50px;
+  border-bottom:5px solid #777878;
+ }
+ #about-me:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#resume{background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+  position:absolute;
+  left:758px;
+  top:50px;
+  border-bottom:5px solid #777878 
+}
+#resume:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#Porfolio{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+   position:absolute;
+  left:958px;
+  top:50px;
+  border-bottom:5px solid #777878 
+}
+#Porfolio:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#Help{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+   position:absolute;
+  left:1158px;
+  top:50px;
+  border-bottom:5px solid #424242;
+  line-height: 50px 
+}
+#Help:hover{
+cursor:default;
+}
+
+
+.drop{
+  display:none;
+}
+
+.mdrop:hover .drop
+{
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  background-color: #919191;
+  width:120px;
+  text-decoration: none;
+}
+
+#contact{
+
+  color:none;
+  cursor:pointer;
+  line-height: 50px;
+  font-size: smaller;
+  text-align: center;
+  border-bottom:5px solid #777878;
+  margin-top: 10px;
+}
+#contact:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#feed{
+
+  color:none;
+  cursor:pointer;
+  line-height: 50px;
+  font-size: smaller;
+  text-align: center;
+  margin-top: 15px;
+  border-bottom:5px solid #777878;
+}
+#feed:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}

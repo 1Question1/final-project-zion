@@ -1,0 +1,142 @@
+html{
+  background-color:lightgrey
+}
+
+a{color:black;
+cursor:pointer;
+line-height: 50px;
+}
+
+#navigation-bar{background-color:darkgrey;
+  
+  height:130px;
+  display:flex;
+  justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+ }
+
+ #logo{
+ margin-left: 30px;
+ }
+ 
+
+#about-me
+{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+  position:absolute;
+  left:558px;
+  top:50px;
+  border-bottom:5px solid #777878
+}
+#about-me:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#resume{background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+  position:absolute;
+  left:758px;
+  top:50px;
+  border-bottom:5px solid  #424242;
+  line-height: 50px;
+}
+
+#resume:hover{
+  cursor:default;
+}
+
+#Porfolio{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+   position:absolute;
+  left:958px;
+  top:50px;
+  border-bottom:5px solid #777878 
+}
+#Porfolio:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#Help{
+  background-color:grey;
+  width:120px;
+  height:50px;
+  align-self:flex;
+   position:absolute;
+  left:1158px;
+  top:50px;
+  border-bottom:5px solid #777878;
+  line-height: 50px 
+}
+#Help:hover{
+cursor:default;
+border-bottom:5px solid #424242;
+transition: 640ms ease-in-out;
+}
+
+
+.drop{
+  display:none;
+}
+
+.mdrop:hover .drop
+{
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  background-color: #919191;
+  width:120px;
+  text-decoration: none;
+}
+
+#contact{
+
+  color:none;
+  cursor:default;
+  line-height: 50px;
+  font-size: smaller;
+  text-align: center;
+  border-bottom:5px solid #777878;
+  margin-top: 10px;
+}
+#contact:hover{
+  border-bottom:5px solid #424242;
+  transition: 640ms ease-in-out;
+}
+
+#email{
+  display:none
+}
+
+#contact:hover #email{
+  display: block;
+  background-color: #919191;
+  width:120px;
+  text-decoration: none;
+}
+
+#email{
+  color:none;
+  cursor:default;
+  line-height: 50px;
+  font-size: x-small;
+  text-align: center;
+  border-bottom:5px solid #777878;
+  margin-top: 10px;
+}
+.res{
+  width: 450px;
+  margin-left: 690px;
+  margin-top: 20px;
+}
+
